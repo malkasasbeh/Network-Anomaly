@@ -1,0 +1,14 @@
+The enormous growth in computer networks and in Internet usage in recent years, combined with the growth in the amount of data exchanged over networks, 
+have shown an exponential increase in the amount of malicious and mysterious threats to computer networks.
+Among many security issues, network attack is a major one.
+For example, Denial of Service (DoS) flooding attacks have recently become attractive to attackers, and these have posed devastating threats to network services. 
+Therefore, the intrusion detection and network anomalies become very critical tasks in the field of network security research area. 
+Researchers suffer from the lack of real-life datasets. 
+Most of the datasets in hand depend on simulated-based approaches, which cannot represent the exact and the nature of network intrusion and anomaly scenarios. Hence,
+generating realistic datasets is very important as it allows for accurate and appropriate evaluation of the detection techniques. 
+To overcome such shortcoming of the existing datasets, in this work, we identify the important requirements to generate effective dataset and 
+we also identify important attack scenarios and the method of injecting them in such data. 
+Our systematic approach involves the investigation of Simple Network Management Protocol (SNMP) for network anomaly detection. 
+For that, we present a Management Information Base (MIB) based mechanism capturing realistic SNMP-MIB statistical data. 
+Then we use this data from an SNMP agent by means of real-life experiments involving six types of DoS attacks and Brute Force attack. 
+Our dataset consists of 4998 records, where each record consists of 34 MIB variables, which are categorized into their corresponding groups, namely: Interface, IP, TCP and ICMP.
